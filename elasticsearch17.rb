@@ -4,8 +4,6 @@ class Elasticsearch17 < Formula
   url "https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.5.tar.gz"
   sha256 "0aa58947d66b487488e86059352deb7c6cab5da4accdff043cce9fed7c3d2fa7"
 
-  bottle :unneeded
-
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"
   end
